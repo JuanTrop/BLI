@@ -1,0 +1,6 @@
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI9071_bli_cuentadeahorros.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI9274_bli_crearproducto.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI3586_bli_busquedacliente.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI8656_bli_crearejercicio.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI6088_bli_crearcuentacorriente.class
+com\cobiscorp\cobis\intrd\bli\services\impl\BLI2677_bli_cuentacorriente.class

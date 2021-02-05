@@ -1,0 +1,148 @@
+{
+	"CLNTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDJIUDIVBY_867": {
+				"name": "ClientesOperaciones"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"CMBOS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDPKUHRFZJ_261": {
+				"name": "FormEstadoCivil"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"CNTAS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDZSLVUBAG_943": {
+				"name": "CuentaNueva"
+			}
+		},
+		"Queries": {
+			"Q_CLIETENT_VM68": {
+				"name": "ClienteQuery"
+			}
+		}
+	},
+	"Entities": {
+		"EN_1IKXRACYD_288": {
+			"name": "Entity1"
+		},
+		"EN_BUSQUEDTT_358": {
+			"name": "BusquedaCliente"
+		},
+		"EN_CIUDADANO_962": {
+			"name": "Ciudadano"
+		},
+		"EN_CLIENTERZ_398": {
+			"name": "Cliente"
+		},
+		"EN_CUENTAAOR_710": {
+			"name": "CuentaAhorro"
+		},
+		"EN_CUENTACRE_871": {
+			"name": "CuentaCorriente"
+		},
+		"EN_CUENTADES_820": {
+			"name": "CuentaDestino"
+		},
+		"EN_CUENTAOIE_653": {
+			"name": "CuentaOrigen"
+		},
+		"EN_CUENTAPWK_471": {
+			"name": "Cuenta"
+		},
+		"EN_ESTADOCVL_592": {
+			"name": "EstadoCivil"
+		},
+		"EN_PERSONAMG_670": {
+			"name": "Persona"
+		},
+		"EN_PRODUCTOO_903": {
+			"name": "Producto"
+		},
+		"EN_SUMAJVNID_949": {
+			"name": "Suma"
+		}
+	},
+	"FRMCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDUKRVPALQ_820": {
+				"name": "FormCuentas"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"FRMLR": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDKAXJGOVP_212": {
+				"name": "EventosCliente"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"OPRCN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDRLQGVUXI_699": {
+				"name": "Calculadora"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"PRBSP": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDNIMENCNI_243": {
+				"name": "CuentaAhorro"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"PRDCT": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_INTRDJADDYHTO_195": {
+				"name": "Productos"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	}
+}

@@ -1,0 +1,113 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "CUSTOM",
+			"value": "cedula"
+		}
+	],
+	"name": "BLI_busquedaCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3586_bli_busquedacliente",
+	"patternName": "BLI_busquedaCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "14dd8f9b-e883-4c8e-b691-21afcfcb1f3c",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "14dd8f9b-e883-4c8e-b691-21afcfcb1f3c",
+			"columns": [
+				{
+					"attributeId": "AT69_CODIGOXZ398",
+					"entityId": "EN_CLIENTERZ_398",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT55_NOMBREGN398",
+					"entityId": "EN_CLIENTERZ_398",
+					"format": "",
+					"name": " nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT75_APELLIDD398",
+					"entityId": "EN_CLIENTERZ_398",
+					"format": "",
+					"name": " apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT58_CEDULABV398",
+					"entityId": "EN_CLIENTERZ_398",
+					"format": "",
+					"name": " cedula",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTERZ_398",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

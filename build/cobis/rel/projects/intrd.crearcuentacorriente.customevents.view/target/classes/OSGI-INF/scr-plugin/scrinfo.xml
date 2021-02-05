@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONULIEIHJ_661726_156_ViewEvent">
+        <implementation class="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONULIEIHJ_661726_156_ViewEvent"/>
+        <service servicefactory="false">
+            <provide interface="com.cobiscorp.designer.api.builder.ViewEventBuilder"/>
+        </service>
+        <property name="view.id" type="String" value="VW_CLIENTESIO_726" private="false"/>
+        <property name="view.version" type="String" value="1.0.0" private="false"/>
+        <property name="service.pid" value="com.cobiscorp.cobis.intrd.customevents.view.CEVA_010VA_VABUTTONULIEIHJ_661726_156_ViewEvent" private="false"/>
+        <reference name="iExecuteCommandVA_VABUTTONULIEIHJ_661726" interface="com.cobiscorp.designer.api.customization.IExecuteCommand" cardinality="1..1" policy="dynamic" target="(&amp;(view.id=VW_CLIENTESIO_726)(view.version=1.0.0)(view.controlId=VA_VABUTTONULIEIHJ_661726))" bind="setiExecuteCommandVA_VABUTTONULIEIHJ_661726" unbind="unsetiExecuteCommandVA_VABUTTONULIEIHJ_661726" checked="true" strategy="event"/>
+        <reference name="bLI6088_bli_crearcuentacorriente" interface="com.cobiscorp.designer.bli.api.IBLIExecutor" cardinality="1..1" policy="static" target="(bli.id=BLI6088_bli_crearcuentacorriente)" bind="setBLI6088_bli_crearcuentacorriente" unbind="unsetBLI6088_bli_crearcuentacorriente" checked="true" strategy="event"/>
+    </scr:component>
+</components>

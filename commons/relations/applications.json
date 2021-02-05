@@ -1,0 +1,248 @@
+{
+	"APP_CREARCUEAOT_464": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "ClientesOperaciones",
+					"subModuleId": "CLNTS",
+					"taskId": "T_INTRDJIUDIVBY_867",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "CrearCuentaCorriente",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CREARCUEAOT_464",
+		"mainPortletTaskId": "T_INTRDJIUDIVBY_867",
+		"modules": [
+			"INTRD"
+		],
+		"name": "CrearCuentaCorriente"
+	},
+	"APP_CREARCUEOHR_999": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "CuentaAhorro",
+					"subModuleId": "PRBSP",
+					"subModuleName": "PruebaSP",
+					"taskId": "T_INTRDNIMENCNI_243",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "CrearCuentaAhorro",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CREARCUEOHR_999",
+		"mainPortletTaskId": "T_INTRDNIMENCNI_243",
+		"modules": [
+			"INTRD"
+		],
+		"name": "CrearCuentaAhorro"
+	},
+	"APP_CUENTASAUSS_114": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 0,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "CuentaNueva",
+					"subModuleId": "CNTAS",
+					"subModuleName": "Cuentas",
+					"taskId": "T_INTRDZSLVUBAG_943",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Cuentas",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CUENTASAUSS_114",
+		"mainPortletTaskId": "T_INTRDZSLVUBAG_943",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Cuentas"
+	},
+	"APP_CUENTASVLMA_206": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 2,
+					"moduleId": "INTRD",
+					"name": "FormCuentas",
+					"subModuleId": "FRMCN",
+					"taskId": "T_INTRDUKRVPALQ_820",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "FormCuentas",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_CUENTASVLMA_206",
+		"mainPortletTaskId": "T_INTRDUKRVPALQ_820",
+		"modules": [
+			"INTRD"
+		],
+		"name": "FormCuentas"
+	},
+	"APP_ESTADOCIIVV_900": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 2,
+					"moduleId": "INTRD",
+					"name": "FormEstadoCivil",
+					"subModuleId": "CMBOS",
+					"taskId": "T_INTRDPKUHRFZJ_261",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "FormEstadoCivil",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_ESTADOCIIVV_900",
+		"mainPortletTaskId": "T_INTRDPKUHRFZJ_261",
+		"modules": [
+			"INTRD"
+		],
+		"name": "FormEstadoCivil"
+	},
+	"APP_EVENTOSCIEI_307": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 2,
+					"moduleId": "INTRD",
+					"name": "EventosCliente",
+					"subModuleId": "FRMLR",
+					"taskId": "T_INTRDKAXJGOVP_212",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "EventosCliente",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_EVENTOSCIEI_307",
+		"mainPortletTaskId": "T_INTRDKAXJGOVP_212",
+		"modules": [
+			"INTRD"
+		],
+		"name": "EventosCliente"
+	},
+	"APP_OPERACIONSE_756": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 0,
+					"moduleId": "INTRD",
+					"moduleName": "Introduccion",
+					"name": "Calculadora",
+					"subModuleId": "OPRCN",
+					"subModuleName": "Operaciones",
+					"taskId": "T_INTRDRLQGVUXI_699",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Operaciones",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_OPERACIONSE_756",
+		"mainPortletTaskId": "T_INTRDRLQGVUXI_699",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Operaciones"
+	},
+	"APP_PRODUCTOSSS_163": {
+		"externalModules": {
+		},
+		"forms": {
+			"INTRD": [
+				{
+					"generated": 4,
+					"moduleId": "INTRD",
+					"name": "Productos",
+					"subModuleId": "PRDCT",
+					"taskId": "T_INTRDJADDYHTO_195",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Productos",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_PRODUCTOSSS_163",
+		"mainPortletTaskId": "T_INTRDJADDYHTO_195",
+		"modules": [
+			"INTRD"
+		],
+		"name": "Productos"
+	}
+}

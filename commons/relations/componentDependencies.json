@@ -1,0 +1,322 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_BUSQUEDTT_358": {
+			"labels": [
+			]
+		},
+		"EN_CIUDADANO_962": {
+			"labels": [
+			]
+		},
+		"EN_CLIENTERZ_398": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAAOR_710": {
+			"labels": [
+			]
+		},
+		"EN_CUENTACRE_871": {
+			"labels": [
+			]
+		},
+		"EN_CUENTADES_820": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAOIE_653": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAPWK_471": {
+			"labels": [
+			]
+		},
+		"EN_ESTADOCVL_592": {
+			"labels": [
+			]
+		},
+		"EN_PERSONAMG_670": {
+			"labels": [
+			]
+		},
+		"EN_PRODUCTOO_903": {
+			"labels": [
+			]
+		},
+		"EN_SUMAJVNID_949": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_INTRDJADDYHTO_195": {
+			"blis": [
+				"BLI9274_bli_crearproducto"
+			],
+			"entities": {
+				"EN_PRODUCTOO_903": [
+					"AT24_TIPOKCLM903",
+					"AT42_COSTOSHD903",
+					"AT52_MODOQWDY903",
+					"AT56_IDPRODOU903",
+					"AT59_DESCRIII903",
+					"AT60_TIPOHUFC903",
+					"AT66_ABREVIAR903",
+					"AT69_ESTADOHN903",
+					"AT83_SALDOMOM903",
+					"AT92_ATOFECHH903"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_ABREVIAAA_44688",
+				"LBL_INTRD_ATOFECHAA_13574",
+				"LBL_INTRD_COSTOKLHU_33143",
+				"LBL_INTRD_DESCRIPNI_93642",
+				"LBL_INTRD_ESTADOBGT_92249",
+				"LBL_INTRD_GUARDARPD_24398",
+				"LBL_INTRD_IDPRODUCO_29139",
+				"LBL_INTRD_MODOMNNYX_16858",
+				"LBL_INTRD_SALDOMIMO_81256",
+				"LBL_INTRD_TIPOHSVPA_58624",
+				"LBL_INTRD_TIPOPBYNA_43556"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDJIUDIVBY_867": {
+			"blis": [
+				"BLI6088_bli_crearcuentacorriente"
+			],
+			"entities": {
+				"EN_CUENTACRE_871": [
+					"AT51_NUMEROCT871",
+					"AT69_CEDULATC871",
+					"AT75_SALDOCNA871"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CEDULACET_45449",
+				"LBL_INTRD_CREARCUNE_50709",
+				"LBL_INTRD_NUMEROCUE_20550",
+				"LBL_INTRD_SALDOYHZT_85138"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDKAXJGOVP_212": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PERSONAMG_670": [
+					"AT24_APELLIOD670",
+					"AT83_NOMBREZS670",
+					"AT97_NOMBREMO670"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_APELLIDOO_56272",
+				"LBL_INTRD_CLEANIQEQ_47709",
+				"LBL_INTRD_NOMBRECPM_47454",
+				"LBL_INTRD_NOMBREZHE_51917",
+				"LBL_INTRD_OKTSQYVNQ_51510"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDNIMENCNI_243": {
+			"blis": [
+				"BLI8656_bli_crearejercicio"
+			],
+			"entities": {
+				"EN_CUENTAAOR_710": [
+					"AT60_CACLIENT710",
+					"AT83_CASALDOO710"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CLIENTEIT_61115",
+				"LBL_INTRD_GUARDARPD_24398",
+				"LBL_INTRD_SALDODOUB_88994"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDPKUHRFZJ_261": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CIUDADANO_962": [
+					"AT35_ACTIVIUU962",
+					"AT70_ESTADOII962"
+				],
+				"EN_ESTADOCVL_592": [
+					"AT99_ESTADOIV592"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_ACTIVIDAL_13891",
+				"LBL_INTRD_ESTADOCIL_52147",
+				"LBL_INTRD_RESTAURRA_91358"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDRLQGVUXI_699": {
+			"blis": [
+			],
+			"entities": {
+				"EN_SUMAJVNID_949": [
+					"AT15_RESULTAD949",
+					"AT51_NUMERO22949",
+					"AT83_NUMERO11949"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_LIMPIAROO_14197",
+				"LBL_INTRD_RESULTAOO_50800",
+				"LBL_INTRD_SUMANDO11_79755",
+				"LBL_INTRD_SUMANDO22_45743",
+				"LBL_INTRD_SUMARFWPO_39242"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDUKRVPALQ_820": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CUENTADES_820": [
+					"AT17_NUMEROAA820",
+					"AT86_SALDOZXK820"
+				],
+				"EN_CUENTAOIE_653": [
+					"AT63_VALORTSA653",
+					"AT65_SALDOHIF653",
+					"AT78_NUMERONE653"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_CUENTADEO_15605",
+				"LBL_INTRD_CUENTAOGN_62075",
+				"LBL_INTRD_NMEROCUAT_87609",
+				"LBL_INTRD_SALDOYHZT_85138",
+				"LBL_INTRD_TRANSFERR_72950",
+				"LBL_INTRD_VALORATRA_61775"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_INTRDZSLVUBAG_943": {
+			"blis": [
+				"BLI2677_bli_cuentacorriente",
+				"BLI9071_bli_cuentadeahorros"
+			],
+			"entities": {
+				"EN_BUSQUEDTT_358": [
+					"AT53_CODIGOVP358"
+				],
+				"EN_CLIENTERZ_398": [
+					"AT55_NOMBREGN398",
+					"AT58_CEDULABV398",
+					"AT69_CODIGOXZ398",
+					"AT75_APELLIDD398"
+				],
+				"EN_CUENTAPWK_471": [
+					"AT19_TIPOCUTA471",
+					"AT38_SALDOFYD471"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_INTRD_AHORROZMO_78360",
+				"LBL_INTRD_BUSQUEDAA_86415",
+				"LBL_INTRD_CEDULARCR_87146",
+				"LBL_INTRD_CORRIENEE_39342",
+				"LBL_INTRD_SALDOINII_96788",
+				"LBL_INTRD_TIPOCUEAT_50058"
+			],
+			"queries": {
+				"Q_CLIETENT_VM68": [
+					"",
+					"",
+					"QM_CLIET6M6NN625_01",
+					"QM_CLIET6N888971_02",
+					"QM_CLIETT8ETM528_04",
+					"QM_CLIETVVMTV209_03"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIETENT_VM68": {
+			"labels": [
+			]
+		}
+	}
+}

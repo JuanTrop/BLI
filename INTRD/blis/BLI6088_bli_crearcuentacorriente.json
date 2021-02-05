@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CUENTACRE_871",
+			"module": {
+				"moduleId": "INTRD",
+				"moduleName": "Introduccion"
+			},
+			"name": "CuentaCorriente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2518"
+		},
+		{
+			"attributeId": "AT75_SALDOCNA871",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_CUENTACRE_871",
+			"format": "",
+			"name": "@i_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT51_NUMEROCT871",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTACRE_871",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT69_CEDULATC871",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTACRE_871",
+			"format": "",
+			"name": "@i_ced_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_crearcuentacorriente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6088_bli_crearcuentacorriente",
+	"patternName": "BLI_crearcuentacorriente",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g1_sp_cuenta_corriente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

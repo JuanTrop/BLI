@@ -1,0 +1,30 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_BUSQUEDTT_358",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		},
+		{
+			"entityId": "EN_CLIENTERZ_398",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		},
+		{
+			"entityId": "EN_CUENTAPWK_471",
+			"isContextEntity": null,
+			"moduleId": "INTRD",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "INTRD",
+			"queryId": "Q_CLIETENT_VM68",
+			"related": false,
+			"subModuleId": "CNTAS"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"INTRD": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPWK_471",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2677_bli_cuentacorriente",
+			"nameBli": "BLI_cuentacorriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTERZ_398",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3586_bli_busquedacliente",
+			"nameBli": "BLI_busquedaCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTACRE_871",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6088_bli_crearcuentacorriente",
+			"nameBli": "BLI_crearcuentacorriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAAOR_710",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8656_bli_crearejercicio",
+			"nameBli": "BLI_crearejercicio"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPWK_471",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9071_bli_cuentadeahorros",
+			"nameBli": "BLI_cuentadeahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_903",
+						"moduleId": "INTRD",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9274_bli_crearproducto",
+			"nameBli": "BLI_crearproducto"
+		}
+	]
+}
